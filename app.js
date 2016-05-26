@@ -1,6 +1,6 @@
 var $content		= $('#content');
 
-var base_dir		= '/wiki'
+var base_dir		= '/notes'
 var org;
 
 var path		= base_dir + '/' + ( get_param( 'file' ) || get_param( 'f' ) || 'home.org' );
